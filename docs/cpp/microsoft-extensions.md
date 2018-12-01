@@ -13,28 +13,28 @@ ms.locfileid: "50592207"
 ---
 # <a name="microsoft-extensions"></a>Microsoft 확장명
 
-*asm 문*:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**__asm***어셈블리 명령* **;** <sub>최적화  </sub><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**__asm {***어셈블리 명령 목록***};** <sub>최적화    </sub>
+*asm-statement*:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**__asm** assembly-instruction; <sub>opt  </sub><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**__asm** { assembly-instruction-list }; <sub>opt    </sub>
 
-*어셈블리 명령 목록*:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;*어셈블리 명령* **;** <sub>최적화</sub> <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;*어셈블리 명령* **;** *어셈블리 명령 목록* **;** <sub>최적화</sub>
+*assembly-instruction-list*:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;*assembly-instruction* **;** <sub>opt</sub> <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;*assembly-instruction* **;** *assembly-instruction-list* **;** <sub>opt</sub>
 
-*ms 한정자 목록*:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;*ms 한정자* *ms 한정자 목록*<sub>최적화</sub>
+*ms-modifier-list*:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;*ms-modifier ms-modifier-list*<sub>opt</sub>
 
-*ms 한정자*:<br/>
+*ms-modifier*:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;**__cdecl**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;**__fastcall**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;**__stdcall**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**__syscall** (이후 구현을 위해 예약 됨)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**__oldcall** (이후 구현을 위해 예약 됨)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**__unaligned** (이후 구현을 위해 예약 됨)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;*기반 한정자*
+&nbsp;&nbsp;&nbsp;&nbsp;**__syscall** (이후 구현을 위해 예약 되어 있음)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**__oldcall** (이후 구현을 위해 예약 되어 있음)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**__unaligned** (이후 구현을 위해 예약 되어 있음)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;*based-modifier*
 
-*기반 한정자*:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**__based (** *기반으로 형식당* **)**
+*based-modifier*:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**__based (** *based-type* **)**
 
-*형식 기반*:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;*이름*
+*based-type*:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;*name*
