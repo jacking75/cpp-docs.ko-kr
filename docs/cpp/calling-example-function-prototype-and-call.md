@@ -12,7 +12,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/31/2018
 ms.locfileid: "50508184"
 ---
-# <a name="calling-example-function-prototype-and-call"></a>호출 예제: 함수 프로토타입 및 호출
+# <a name="calling-example-function-prototype-and-call"></a>호출 예: 함수 프로토타입 및 호출
 
 ## <a name="microsoft-specific"></a>Microsoft 전용
 
@@ -37,10 +37,10 @@ void    MyFunc( char c, short s, int i, double f )
 MyFunc ('x', 12, 8192, 2.7183);
 ```
 
-자세한 내용은 [호출 예제 결과](../cpp/results-of-calling-example.md)합니다.
+자세한 내용은 [호출 결과 ](../cpp/results-of-calling-example.md)를 참고해주세요.
 
 **Microsoft 전용 종료**
 
-## <a name="see-also"></a>참고자료
+## <a name="see-also"></a>참조
 
 [호출 규칙](../cpp/calling-conventions.md)
