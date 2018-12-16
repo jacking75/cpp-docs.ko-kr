@@ -34,7 +34,7 @@ ms.locfileid: "50619702"
 
 유틸리티 클래스는 MFC DLL을 요구하지 않고 모든 네이티브 C++ 프로젝트에서 사용할 수 있습니다.
 
-## <a name="in-this-section"></a>섹션 내용
+## <a name="in-this-section"></a>단원 내용
 
 [MFC와 ATL 간 공유 클래스](../atl-mfc-shared/reference/classes-shared-by-mfc-and-atl.md)<br/>
  MFC 및 ATL 간에 공유 되는 클래스에 대한 링크를 제공 합니다.  
