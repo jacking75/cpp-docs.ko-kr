@@ -14,9 +14,9 @@ ms.locfileid: "50676215"
 ---
 # <a name="exception-handling-x64"></a>예외 처리(x64)
 
-이 섹션에서는 구조적된 예외 처리 및 c + + 예외 처리 x64에서 동작을 설명 합니다.
+이 단원에서는 x64에서의 구조적 예외 처리 및 C++ 예외 처리 동작에 대해 설명합니다.
 
-- [디버거 지원, 예외 처리를 위한 해제 데이터](../build/unwind-data-for-exception-handling-debugger-support.md)
+- [예외 처리 및 디버거 지원을 위한 해제 데이터](../build/unwind-data-for-exception-handling-debugger-support.md)
 
 - [해제 절차](../build/unwind-procedure.md)
 
@@ -26,7 +26,7 @@ ms.locfileid: "50676215"
 
 - [C의 해제 데이터 정의](../build/unwind-data-definitions-in-c.md)
 
-자세한 내용은 [예외 처리](../cpp/exception-handling-in-visual-cpp.md)를 참조하세요.
+자세한 내용은 [Visual C++에서 예외 처리](../cpp/exception-handling-in-visual-cpp.md)를 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
 
