@@ -11,13 +11,13 @@ ms.locfileid: "50455655"
 ---
 # <a name="linking"></a>연결
 
-링커를 사용 하 여에 대 한 내용은 다음 섹션을 참조 합니다.
+링커 사용에 대한 자세한 내용은 다음 항목을 참조하십시오.
 
 - [링커 옵션 설정](../../build/reference/setting-linker-options.md)
 
 - [링커 옵션](../../build/reference/linker-options.md)
 
-- [모듈 정의 (.def) 파일](../../build/reference/module-definition-dot-def-files.md)
+- [모듈 정의 파일(.def)](../../build/reference/module-definition-dot-def-files.md)
 
 - [링커의 지연 로드된 DLL 지원](../../build/reference/linker-support-for-delay-loaded-dlls.md)
 
