@@ -11,13 +11,13 @@ ms.locfileid: "50523671"
 ---
 # <a name="unwind-data-for-exception-handling-debugger-support"></a>예외 처리 및 디버거 지원을 위한 해제 데이터
 
-이 섹션에서는 예외 처리 및 디버깅 지원에 필요한 데이터 구조를 설명 합니다.
+이 단원에서는 예외 처리 및 디버깅 지원에 필요한 데이터 구조체에 대해 설명합니다.
 
-- [struct RUNTIME_FUNCTION](../build/struct-runtime-function.md)
+- [구조체 RUNTIME_FUNCTION](../build/struct-runtime-function.md)
 
-- [struct UNWIND_INFO](../build/struct-unwind-info.md)
+- [구조체 UNWIND_INFO](../build/struct-unwind-info.md)
 
-- [struct UNWIND_CODE](../build/struct-unwind-code.md)
+- [구조체 UNWIND_CODE](../build/struct-unwind-code.md)
 
 - [연결된 해제 정보 구조체](../build/chained-unwind-info-structures.md)
 
