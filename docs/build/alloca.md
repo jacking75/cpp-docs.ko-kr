@@ -12,9 +12,9 @@ ms.locfileid: "50491626"
 ---
 # <a name="alloca"></a>alloca
 
-[_alloca](../c-runtime-library/reference/alloca.md) 되어야 할 16 바이트 정렬 하 고 또한 프레임 포인터를 사용 해야 합니다.
+[_alloca](../c-runtime-library/reference/alloca.md)를 사용하려면 16바이트 맞춤이어야 하고 프레임 포인터를 사용해야 합니다.
 
-에 설명 된 대로 스택에 할당 된 이후에 호출 함수의 매개 변수에 대 한 아래 공간을 포함 해야 [스택 할당](../build/stack-allocation.md)합니다.
+할당된 스택에서는 이후 호출되는 함수의 매개 변수를 위해 아래에 공간을 포함해야 합니다. 자세한 내용은 [스택 할당](../build/stack-allocation.md)을 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
 
