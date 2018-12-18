@@ -11,9 +11,9 @@ ms.locfileid: "50427900"
 ---
 # <a name="setjmplongjump"></a>setjmp/longjump
 
-Setjmp.h 나 setjmpex.h를 포함 하는 경우 대 한 모든 호출은 [setjmp](../c-runtime-library/reference/setjmp.md) 하거나 [longjmp](../c-runtime-library/reference/longjmp.md) 소멸자를 호출 하 고 마지막으로 호출 하는 해제 됩니다.  이에서 서로 다릅니다 x86, finally 절에 setjmp.h 결과 포함 하 고 소멸자가 호출 되지 않습니다.
+Setjmp.h나 setjmpex.h를 포함하는 경우 [setjmp](../c-runtime-library/reference/setjmp.md) 또는 [longjmp](../c-runtime-library/reference/longjmp.md)에 대한 모든 호출 결과로 소멸자와 finally 호출을 호출하는 해제가 발생합니다. 이는 setjmp.h를 포함해도 finally 절과 소멸자가 호출되지 않는 x86의 경우와 다른 점입니다.
 
-에 대 한 호출 `setjmp` 현재 스택 포인터, 비휘발성 레지스터 및 MxCsr 레지스터를 유지 합니다.  에 대 한 호출 `longjmp` 가장 최근의 반환 `setjmp` 호출 스택 포인터, 비휘발성 레지스터 및 MxCsr 레지스터, 상태로 최신으로 유지 되므로 사이트 및 재설정 `setjmp` 호출 합니다.
+`setjmp`에 대한 호출은 현재 스택 포인터, 비volatile 레지스터 및 MxCsr 레지스터를 유지합니다. `longjmp`에 대한 호출은 가장 최근의 `setjmp` 호출 사이트에 반환되고 스택 포인터, 비 volatile 레지스터 및 MxCsr 레지스터를 가장 최근의 `setjmp` 호출에서 유지한 상태로 다시 설정합니다.
 
 ## <a name="see-also"></a>참고 항목
 
