@@ -30,7 +30,7 @@ ms.locfileid: "50592506"
 
 또한 [C++ 표준 라이브러리의 스레드 보안](../standard-library/thread-safety-in-the-cpp-standard-library.md) 및 [stdext 네임스페이스](../standard-library/stdext-namespace.md)에 대한 토론도 제공합니다.
 
-## <a name="in-this-section"></a>단원 내용
+## <a name="in-this-section"></a>섹션 내용
 
 [스트림이란](../standard-library/what-a-stream-is.md)
 
