@@ -26,7 +26,7 @@ ms.locfileid: "50676215"
 
 - [C의 해제 데이터 정의](../build/unwind-data-definitions-in-c.md)
 
-자세한 내용은 [Visual C++에서 예외 처리](../cpp/exception-handling-in-visual-cpp.md)를 참조하십시오.
+자세한 내용은 [Visual C++에서 예외 처리](../cpp/exception-handling-in-visual-cpp.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 
