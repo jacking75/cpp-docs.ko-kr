@@ -15,7 +15,7 @@ ms.locfileid: "50639216"
 
 ## <a name="remarks"></a>설명
 
-이 단원에서는 아래와 같은 항목을 설명합니다:
+이 단원에서는 다음과 같은 항목을 설명합니다.
 
 - [원시 의사 작업](../build/raw-pseudo-operations.md)
 
